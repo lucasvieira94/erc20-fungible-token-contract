@@ -1,15 +1,16 @@
-# Basic Sample Hardhat Project
+# ERC-20 Fungible Token Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project was implemented to educational purposes. Use as you wish.
 
-Try running some of the following tasks:
+There are a few commands that we can use.
+
+To compile:
+```shell
+npx hardhat compile
+```
+
+To deploy:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npx hardhat deploy
 ```
